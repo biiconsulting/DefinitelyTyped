@@ -6950,12 +6950,30 @@ declare namespace echarts {
                         x?: number;
 
                         /**
+                         * Create a mark line in Cartesian coordinate at
+                         * a specific position in X axis by assigning `xAxis`.
+                         *
+                         *
+                         * @see https://ecomfe.github.io/echarts-doc/public/en/option.html#series-bar.markLine.data
+                         */
+                        xAxis?: number;
+
+                        /**
                          * Y position according to container, in pixel.
                          *
                          *
                          * @see https://ecomfe.github.io/echarts-doc/public/en/option.html#series-bar.markLine.data.0.y
                          */
                         y?: number;
+
+                        /**
+                         * Create a mark line in Cartesian coordinate at
+                         * a specific position in Y axis by assigning `yAxis`.
+                         *
+                         *
+                         * @see https://ecomfe.github.io/echarts-doc/public/en/option.html#series-bar.markLine.data
+                         */
+                        yAxis?: number;
 
                         /**
                          * Label value, which can be ignored.
